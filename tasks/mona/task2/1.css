@@ -1,0 +1,104 @@
+body {
+    background-color: #111116;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.timer
+ {
+    display: inline-block;
+    width: 150px;
+    border: 2px solid #525c8a;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 10px;
+}
+        
+        .container
+        {
+            position: relative;
+            border:2px solid #eee;
+            height: 300px;
+            width: 900px;
+
+        }
+        .fighter
+        {
+            position: absolute;
+            left:10px;
+            right: 10px;
+            padding-top: 180px;
+        }
+      
+
+
+    .controller-info {
+    padding-left: 15px;
+    width: 166px;
+    margin-top: 33px;
+}
+
+
+
+table,
+th,
+td {
+    border: 2px solid #525c8a;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+    font-weight: bold;
+    background-color: #525c8a
+}
+
+td {
+    padding: 10px 5px
+}
+
+.start {
+    width: 150px;
+    padding: 10px;
+    margin-top: 66px;
+    margin-left: 15px;
+    background-color: #1ba731;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    transition: background-color .8s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.start:hover {
+    background-color: #525c8a;
+    cursor: pointer;
+}
+
+.start:active {
+    position: relative;
+    top: -5px;
+}
+
+
+.blocks {
+    margin-top: 15px;
+    margin-left: 29px;
+    position: relative;
+}
+
+.blocks div.block {
+    display: inline-block;
+    width: 5.5%;
+    height: 47px;
+    background-color: #1ba731;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 10;
+}
